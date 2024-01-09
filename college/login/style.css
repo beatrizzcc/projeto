@@ -1,0 +1,30 @@
+#div-login{
+    display: inline-block;
+    width: 425px;
+    height: 495px;
+    color: white;
+    text-align: center;
+    line-height: 51px;
+    background: cadetblue;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+#img-login{
+    width: 50px;
+    margin-top: 23px;
+    text-align: center;
+}
+#login>input{
+    height: 25px;
+    border-radius: 2px;
+    margin-top: 7px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+    color: aliceblue;
+    margin-top: 20px;
+}

@@ -4,6 +4,7 @@
         <title>Login</title>
         <meta charset="utf-8">
         <meta name="author" content="Beatriz">
+        <link rel="stylesheet" href="style.css">
 
     </head>
 
@@ -11,24 +12,26 @@
     <body>
         <script src="script.js"></script>
 
-        <form action="#" method="GET" name="user-info">
-            <h1>Login de Matrícula</h1>
-            <label for="full-name">Nome completo:</label>
-            <input type="text" id="full-name" required value="" placeholder="digite seu nome completo" autofocus>
+        <div id="div-login">
+            <form id="login" action="#" method="GET" name="login-info">
+                <img id="img-login" src="../img/person.svg">
+                <h1>Login de Matrícula</h1>
+                <input type="text" id="full-name" required value="" placeholder="Nome completo" autofocus>
+                <br>
+                <input id="email" rows="10" type="email" placeholder="E-mail"></input>
+                <br>
+                <label for="date"> Data de nascimento:</label>
+                <br>
+                <input class="input-date" type="date" id="date">
+                <br>
+                <button class="btn" onclick="getInfo()">Enviar</button>
+                <button class="btn" type="reset">Apagar</button>
+            
+            
+            </form>
 
-            <label for="email">E-mail:</label>
-            <input id="email" rows="10" type="email"></input>
-
-            <label for="date">Data de Nascimento:</label>
-            <input type="date" id="date" min="0" max="125">
-
+        </div>
+    
         
-
-            <button onclick="getInfo()">Enviar</button>
-            <button type="reset">Apagar</button>
-        
-        
-        </form>
-
     </body>
 </html>
