@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciamento de áreas de curso</title>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div id="table">
+        <table id="table-main">
+            <thead>
+                <tr id="tr-title">
+                    <th>Biomedicina</th>
+                    <th>Arquitetura e Urbanismo</th>
+                    <th>Engenharia Cívil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tr-description">
+                    <td>A Biomedicina é a ciência que estuda as doenças humanas, suas causas e os melhores meios para tratá-las. O profissional formado em Biomedicina é encarregado de identificar, classificar e estudar os causadores de doenças, bem como procurar por medicamentos corretos para combatê-los ou controlá-los.</td>
+                    <td>Arquitetura e Urbanismo é uma área do conhecimento que se dedica à concepção e criação de espaços habitáveis e funcionais, considerando aspectos estéticos, sociais, culturais, econômicos, ambientais e tecnológicos.</td>
+                    <td>A Engenharia Civil é o ramo da Engenharia que capacita profissionais para o trabalho na construção civil e urbana, saneamento, geotecnia, hidráulica, estruturas e fundações, rodovias e transportes. </td>
+    
+                </tr>
+        
+            </tbody>
+        
+        </table>
+        <label for="title-adc">Título:</label>
+        <input type="text" id="title-adc" placeholder="digite o titulo da materia" >
+
+        <label for="description-adc">Descrição:</label>
+        <input type="text" id="description-adc" placeholder="digite a descrição da materia" >
+
+        <button id="btnAdicionar" onclick="AdcCourse()">Adicionar</button>
+        
+    </div>
+
+<script src="course.js"></script>
+
+
+</body>
+</html>
