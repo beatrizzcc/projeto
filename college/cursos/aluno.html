@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Beatriz">
+
+    </head>
+    <body>
+        <form action="#" method="GET" name="aluno-info">
+            <h1>Matrícula</h1>
+            <label for="full-name">Nome completo:</label>
+            <input type="text" id="full-name" required value="" placeholder="digite seu nome completo" autofocus>
+
+            <label for="email">E-mail:</label>
+            <input id="email" rows="10" type="email"></input>
+
+            <label for="date">Data de Nascimento:</label>
+            <input type="date" id="date">
+
+            <label for="name-course">Nome do curso desejado:</label>
+            <input type="text" id="name-course" required value="" placeholder="digite o nome do curso">
+
+            <button onclick="getInfoAluno()">Enviar</button>
+            <button type="reset">Apagar</button>
+        
+        
+        </form>
+        <script src="aluno.js"></script>
+    </body>
+
+</html>
