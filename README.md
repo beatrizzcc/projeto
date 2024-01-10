@@ -1,4 +1,5 @@
-/* duas telas*/
+/* entrar na pasta college */
+/* duas telas - duas branchs*/
 /* uma de login, que após inserir os dados é salvo no localStorage */
 /* em que nome e email são obrigatórios */
 /* segunda tela é uma tabela dos cursos */
@@ -7,3 +8,4 @@
 
 /* obs: tudo feito no front end */
 /* obs2: há duas branchs completas: login e matricula-cursos */
+
