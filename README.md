@@ -6,3 +6,4 @@
 /* no input pode adicionar mais cursos e irá ser adicionado na tabela após clicar no botão adicionar */
 
 /* obs: tudo feito no front end */
+/* obs2: há duas branchs completas: login e matricula-cursos */
