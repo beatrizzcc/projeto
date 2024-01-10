@@ -4,19 +4,14 @@ function AdcCourse(){
         const titleAdded = document.getElementById('title-adc').value;
         const descriptionAdded = document.getElementById('description-adc').value;
 
-        //const tr = document.createElement('tr');
         const trTitle = document.getElementById('tr-title')
         const trDescription = document.getElementById('tr-description')
-
-
-    
 
         const thTitle = document.createElement('th');
         thTitle.textContent = titleAdded;
         trTitle.appendChild(thTitle);
 
 
-        //const trDescription = document.getElementById('tr-description')
         const tdDescription = document.createElement('td');
         tdDescription.textContent = descriptionAdded;
         trDescription.appendChild(tdDescription);

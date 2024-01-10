@@ -1,0 +1,28 @@
+#title-h2{
+    text-align: center;
+    background-color: rgb(138, 188, 229);
+}
+
+#table-main, th, td{
+    border: 1px solid black;
+}
+#table{
+    background-color: rgb(183, 205, 211);
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#added{
+    margin-top: 20px;
+    text-align: center;
+}
+#tr-title{
+    background-color: rgb(149, 182, 192);
+}
+#tr-title>th{
+    color: white;
+}
+#tr-description>td{
+    text-align: center;
+}
